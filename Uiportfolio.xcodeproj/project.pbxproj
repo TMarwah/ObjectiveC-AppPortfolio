@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4215338D237A891800546C5B /* SquareLab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4215338C237A891800546C5B /* SquareLab.storyboard */; };
+		42153390237A8A6700546C5B /* SquareController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4215338F237A8A6700546C5B /* SquareController.m */; };
 		6D5429B523708A0A0059C604 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5429B423708A0A0059C604 /* AppDelegate.m */; };
 		6D5429B823708A0A0059C604 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5429B723708A0A0059C604 /* SceneDelegate.m */; };
 		6D5429BB23708A0A0059C604 /* CalcController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5429BA23708A0A0059C604 /* CalcController.m */; };
@@ -31,6 +33,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4215338C237A891800546C5B /* SquareLab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SquareLab.storyboard; sourceTree = "<group>"; };
+		4215338E237A8A6700546C5B /* SquareController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SquareController.h; sourceTree = "<group>"; };
+		4215338F237A8A6700546C5B /* SquareController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquareController.m; sourceTree = "<group>"; };
 		6D5429B023708A0A0059C604 /* Uiportfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uiportfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D5429B323708A0A0059C604 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6D5429B423708A0A0059C604 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -114,6 +119,7 @@
 				6DB666082371ED4400A89134 /* FileIO.storyboard */,
 				6DB666102372014200A89134 /* Histogram.storyboard */,
 				6DB666142372033B00A89134 /* Pythagoras.storyboard */,
+				4215338C237A891800546C5B /* SquareLab.storyboard */,
 				6D5429BF23708A0C0059C604 /* Assets.xcassets */,
 			);
 			path = Views;
@@ -132,6 +138,8 @@
 				6D7036D523799384004A956C /* HistoController.h */,
 				6D7036C82377B995004A956C /* PythController.m */,
 				6D7036CA2377B9CA004A956C /* PythController.h */,
+				4215338F237A8A6700546C5B /* SquareController.m */,
+				4215338E237A8A6700546C5B /* SquareController.h */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -219,6 +227,7 @@
 			files = (
 				6DB666092371ED4400A89134 /* FileIO.storyboard in Resources */,
 				6D5429C323708A0C0059C604 /* LaunchScreen.storyboard in Resources */,
+				4215338D237A891800546C5B /* SquareLab.storyboard in Resources */,
 				6DB666112372014200A89134 /* Histogram.storyboard in Resources */,
 				6D5429C023708A0C0059C604 /* Assets.xcassets in Resources */,
 				6DB666072371E7D600A89134 /* Calculator.storyboard in Resources */,
@@ -243,6 +252,7 @@
 				6D5429B523708A0A0059C604 /* AppDelegate.m in Sources */,
 				6D7036E12379DA95004A956C /* histogram.c in Sources */,
 				6D5429C623708A0C0059C604 /* main.m in Sources */,
+				42153390237A8A6700546C5B /* SquareController.m in Sources */,
 				6D5429B823708A0A0059C604 /* SceneDelegate.m in Sources */,
 				6D7036D723799B80004A956C /* AlgoController.m in Sources */,
 				6D7036D423799330004A956C /* HistoController.m in Sources */,

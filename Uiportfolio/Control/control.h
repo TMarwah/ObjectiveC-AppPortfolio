@@ -47,5 +47,6 @@ int histogram(char *message);
 int zeroTest(double value);
 double calculateIt(double arg1, int mathOp, double arg2);
 double hyptoneuse (double side1, double side2);
+double areacalc ( double length, double width);
 
 #endif /* portfolio_h */
