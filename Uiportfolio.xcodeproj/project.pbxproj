@@ -91,9 +91,6 @@
 			children = (
 				6D5429B223708A0A0059C604 /* Uiportfolio */,
 				6D5429B123708A0A0059C604 /* Products */,
-				6519651A237CB9970084A3C3 /* 1200px-Rtriangle.svg.png */,
-				65196518237CB8CB0084A3C3 /* 1200px-Square_-_black_simple.svg.png */,
-				65196516237CB8980084A3C3 /* Untitled drawing (2).png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +118,9 @@
 		6DB66603237135DD00A89134 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6519651A237CB9970084A3C3 /* 1200px-Rtriangle.svg.png */,
+				65196518237CB8CB0084A3C3 /* 1200px-Square_-_black_simple.svg.png */,
+				65196516237CB8980084A3C3 /* Untitled drawing (2).png */,
 				6D5429C123708A0C0059C604 /* LaunchScreen.storyboard */,
 				6D5429BC23708A0A0059C604 /* Main.storyboard */,
 				6DB666122372021400A89134 /* AlgoSearch.storyboard */,
