@@ -11,6 +11,7 @@
 		42060411237BCEA30095395A /* SquareLab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42060410237BCEA30095395A /* SquareLab.storyboard */; };
 		65196517237CB8990084A3C3 /* Untitled drawing (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 65196516237CB8980084A3C3 /* Untitled drawing (2).png */; };
 		65196519237CB8CB0084A3C3 /* 1200px-Square_-_black_simple.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 65196518237CB8CB0084A3C3 /* 1200px-Square_-_black_simple.svg.png */; };
+		6519651B237CB9970084A3C3 /* 1200px-Rtriangle.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6519651A237CB9970084A3C3 /* 1200px-Rtriangle.svg.png */; };
 		6D5429B523708A0A0059C604 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5429B423708A0A0059C604 /* AppDelegate.m */; };
 		6D5429B823708A0A0059C604 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5429B723708A0A0059C604 /* SceneDelegate.m */; };
 		6D5429BB23708A0A0059C604 /* CalcController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5429BA23708A0A0059C604 /* CalcController.m */; };
@@ -40,6 +41,7 @@
 		42060410237BCEA30095395A /* SquareLab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SquareLab.storyboard; sourceTree = "<group>"; };
 		65196516237CB8980084A3C3 /* Untitled drawing (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled drawing (2).png"; sourceTree = "<group>"; };
 		65196518237CB8CB0084A3C3 /* 1200px-Square_-_black_simple.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1200px-Square_-_black_simple.svg.png"; sourceTree = "<group>"; };
+		6519651A237CB9970084A3C3 /* 1200px-Rtriangle.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1200px-Rtriangle.svg.png"; sourceTree = "<group>"; };
 		6D5429B023708A0A0059C604 /* Uiportfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uiportfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D5429B323708A0A0059C604 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6D5429B423708A0A0059C604 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 			children = (
 				6D5429B223708A0A0059C604 /* Uiportfolio */,
 				6D5429B123708A0A0059C604 /* Products */,
+				6519651A237CB9970084A3C3 /* 1200px-Rtriangle.svg.png */,
 				65196518237CB8CB0084A3C3 /* 1200px-Square_-_black_simple.svg.png */,
 				65196516237CB8980084A3C3 /* Untitled drawing (2).png */,
 			);
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DB666092371ED4400A89134 /* FileIO.storyboard in Resources */,
+				6519651B237CB9970084A3C3 /* 1200px-Rtriangle.svg.png in Resources */,
 				6D5429C323708A0C0059C604 /* LaunchScreen.storyboard in Resources */,
 				65196519237CB8CB0084A3C3 /* 1200px-Square_-_black_simple.svg.png in Resources */,
 				42060411237BCEA30095395A /* SquareLab.storyboard in Resources */,
