@@ -1,11 +1,3 @@
-//
-//  ViewController.m
-//  Calculator
-//
-//  Created by John Mortensen on 10/10/19.
-//  Copyright © 2019 JM. All rights reserved.
-//
-
 #include "control.h"
 #import "CalcController.h"
 
@@ -91,6 +83,7 @@
     [self calculateAnswer];
     
     // set and display result
+    NSString *tmp = [NSString stringWithFormat:@"%f", calcAnswer];
     [self setCalcAreaNumber:[NSString stringWithFormat:@"%f", calcAnswer]];  // float (double) to string
     [self setTextCalcAreaLabel];
     
@@ -149,6 +142,27 @@
     [self saveValueOfArg1];
     [self clearCalcAreaLabel];
 }
+
+-(IBAction)powerButton:(id)sender {  // Interface Builder action for plus (/)
+    [self saveValueOfOperator:POWER];
+    [self saveValueOfArg1];
+    [self clearCalcAreaLabel];
+}
+
+-(IBAction)negativeButton:(id)sender {  // Interface Builder action for square root (/)
+    [self saveValueOfOperator:NEGATIVE];
+    [self saveValueOfArg1];
+    [self calculateAnswer];
+    
+    // set and display result
+    //NSString *tmp = [NSString stringWithFormat:@"%f", calcAnswer];
+
+    [self setCalcAreaNumber:[NSString stringWithFormat:@"%.8f", calcAnswer]];  // float (double) to string
+    [self setTextCalcAreaLabel];
+    [self saveValueofAnswer];
+}
+
+
 
 // Interface Builder actions  for numbers and decimal
 -(IBAction)press9Button:(id)sender {  // Interface Builder action for (9)

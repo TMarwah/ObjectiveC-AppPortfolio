@@ -20,6 +20,11 @@
 #define DIVIDE 3
 #define MODULO 4
 #define SQRT 5
+#define NEGATIVE 6
+#define SINE 7
+#define COSINE 8
+#define TANGENT 9
+#define POWER   10
 
 // C Function Name and Line number
 typedef struct candidatesFuncs {
@@ -46,7 +51,7 @@ int jumpers(char *message);
 int histogram(char *message);
 int zeroTest(double value);
 double calculateIt(double arg1, int mathOp, double arg2);
-double hyptoneuse (double side1, double side2);
+double hypotenuse (double side1, double side2);
 double areacalc ( double length, double width);
 
 #endif /* portfolio_h */
