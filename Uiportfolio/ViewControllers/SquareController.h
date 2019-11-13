@@ -2,7 +2,7 @@
 //  SquareController.h
 //  Uiportfolio
 //
-//  Created by Tanmay Marwah on 11/11/19.
+//  Created by Tanmay Marwah on 11/12/19.
 //  Copyright © 2019 JM. All rights reserved.
 //
 
@@ -14,4 +14,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *width;
 @property (strong, nonatomic) IBOutlet UILabel *area;
 
+
 @end
+
+
