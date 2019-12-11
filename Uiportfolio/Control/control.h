@@ -53,5 +53,9 @@ int zeroTest(double value);
 double calculateIt(double arg1, int mathOp, double arg2);
 double hypotenuse (double side1, double side2);
 double areacalc ( double length, double width);
+char *reverse1( char* userString, long length);
+char *reverse2( char* userString, long length);
+char *reverse3( char* userString);
+char *reverse4( char* userString, long length);
 
 #endif /* portfolio_h */

@@ -12,6 +12,9 @@
 		65196517237CB8990084A3C3 /* Untitled drawing (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 65196516237CB8980084A3C3 /* Untitled drawing (2).png */; };
 		65196519237CB8CB0084A3C3 /* 1200px-Square_-_black_simple.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 65196518237CB8CB0084A3C3 /* 1200px-Square_-_black_simple.svg.png */; };
 		6519651B237CB9970084A3C3 /* 1200px-Rtriangle.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6519651A237CB9970084A3C3 /* 1200px-Rtriangle.svg.png */; };
+		6529FA3A23971BD000ED4464 /* StringController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6529FA3923971BD000ED4464 /* StringController.storyboard */; };
+		6546AF5B2395C70300C25EE5 /* stringReverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6546AF5A2395C70300C25EE5 /* stringReverse.m */; };
+		6546AF5F2395CDFA00C25EE5 /* stringReverse.c in Sources */ = {isa = PBXBuildFile; fileRef = 6546AF5E2395CDFA00C25EE5 /* stringReverse.c */; };
 		6D5429B523708A0A0059C604 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5429B423708A0A0059C604 /* AppDelegate.m */; };
 		6D5429B823708A0A0059C604 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5429B723708A0A0059C604 /* SceneDelegate.m */; };
 		6D5429BB23708A0A0059C604 /* CalcController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5429BA23708A0A0059C604 /* CalcController.m */; };
@@ -42,6 +45,10 @@
 		65196516237CB8980084A3C3 /* Untitled drawing (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled drawing (2).png"; sourceTree = "<group>"; };
 		65196518237CB8CB0084A3C3 /* 1200px-Square_-_black_simple.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1200px-Square_-_black_simple.svg.png"; sourceTree = "<group>"; };
 		6519651A237CB9970084A3C3 /* 1200px-Rtriangle.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1200px-Rtriangle.svg.png"; sourceTree = "<group>"; };
+		6529FA3923971BD000ED4464 /* StringController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StringController.storyboard; sourceTree = "<group>"; };
+		6546AF5A2395C70300C25EE5 /* stringReverse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = stringReverse.m; sourceTree = "<group>"; };
+		6546AF5C2395C71000C25EE5 /* stringReverse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stringReverse.h; sourceTree = "<group>"; };
+		6546AF5E2395CDFA00C25EE5 /* stringReverse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stringReverse.c; sourceTree = "<group>"; };
 		6D5429B023708A0A0059C604 /* Uiportfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uiportfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D5429B323708A0A0059C604 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6D5429B423708A0A0059C604 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -129,6 +136,7 @@
 				6DB666102372014200A89134 /* Histogram.storyboard */,
 				6DB666142372033B00A89134 /* Pythagoras.storyboard */,
 				42060410237BCEA30095395A /* SquareLab.storyboard */,
+				6529FA3923971BD000ED4464 /* StringController.storyboard */,
 				6D5429BF23708A0C0059C604 /* Assets.xcassets */,
 			);
 			path = Views;
@@ -149,6 +157,8 @@
 				6D7036CA2377B9CA004A956C /* PythController.h */,
 				4206040E237BCE6A0095395A /* SquareController.m */,
 				4206040D237BCE6A0095395A /* SquareController.h */,
+				6546AF5A2395C70300C25EE5 /* stringReverse.m */,
+				6546AF5C2395C71000C25EE5 /* stringReverse.h */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -169,6 +179,7 @@
 			children = (
 				6D7036E22379DAE0004A956C /* control.h */,
 				6DB6661E23724E2100A89134 /* calc.c */,
+				6546AF5E2395CDFA00C25EE5 /* stringReverse.c */,
 				6D7036D92379DA31004A956C /* fileparse.c */,
 				6D7036E02379DA94004A956C /* histogram.c */,
 				6D7036DE2379DA59004A956C /* jumpers.c */,
@@ -246,6 +257,7 @@
 				65196517237CB8990084A3C3 /* Untitled drawing (2).png in Resources */,
 				6DB666152372033B00A89134 /* Pythagoras.storyboard in Resources */,
 				6D5429BE23708A0A0059C604 /* Main.storyboard in Resources */,
+				6529FA3A23971BD000ED4464 /* StringController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +271,7 @@
 				6D7036DF2379DA59004A956C /* jumpers.c in Sources */,
 				6D7036D123788FAB004A956C /* FileIOController.m in Sources */,
 				6DB6661F23724E2100A89134 /* calc.c in Sources */,
+				6546AF5F2395CDFA00C25EE5 /* stringReverse.c in Sources */,
 				6D5429BB23708A0A0059C604 /* CalcController.m in Sources */,
 				6D7036C92377B995004A956C /* PythController.m in Sources */,
 				6D5429B523708A0A0059C604 /* AppDelegate.m in Sources */,
@@ -266,6 +279,7 @@
 				6D5429C623708A0C0059C604 /* main.m in Sources */,
 				4206040F237BCE6A0095395A /* SquareController.m in Sources */,
 				6D5429B823708A0A0059C604 /* SceneDelegate.m in Sources */,
+				6546AF5B2395C70300C25EE5 /* stringReverse.m in Sources */,
 				6D7036D723799B80004A956C /* AlgoController.m in Sources */,
 				6D7036D423799330004A956C /* HistoController.m in Sources */,
 				6D7036DA2379DA31004A956C /* fileparse.c in Sources */,
